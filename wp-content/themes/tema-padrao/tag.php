@@ -1,4 +1,4 @@
-<!-- TEMPLATE NAME: tag.php -->
+<!-- IN: tag.php -->
 
 <?php get_template_part('includes/header-page'); ?>
 <?php if (have_posts()) : ?>

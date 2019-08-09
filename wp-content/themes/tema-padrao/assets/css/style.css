@@ -1,0 +1,161 @@
+/* ===========OPÇÕES GERAIS========== */
+
+* {
+    font-family: 'Verdana', Arial;
+}
+
+.bg-principalforte {
+    background: #181b66;
+}
+
+.text-principalforte {
+    color: #181b66;
+}
+
+.bg-principal {
+    background: #363996;
+}
+
+.text-principal, .content-page h1 {
+    color: #363996;
+}
+
+.content-page h1 {
+    font-weight: bold;
+}
+
+.content-page h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.content-page h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.content-page {
+    color: #666666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ===========HEADER TITLES========== */
+
+.container-header-topo {
+    background: #eee;
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+
+.container-header-topo h1 {
+    font-weight: bold;
+    color: #363996;
+}
+
+/* ===========HEADER========== */
+
+/* ==============SLIDER============== */
+
+/* ===========FRONT-PAGE========== */
+
+/* ==============BLOG============== */
+
+.box-list-blog img {
+    float: left;
+    margin-right: 15px;
+}
+
+.box-list-blog {
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+    text-decoration: none !important;
+}
+
+.box-list-blog .description-post-list {
+    color: #666666;
+    font-size: 14px;
+}
+
+.box-list-blog .description-post-list .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.pagination a, .pagination span {
+    display: inline-block;
+    border-radius: 10px;
+    background: #eee;
+    margin: 0 5px;
+    color: #333;
+    padding: 15px;
+}
+
+.pagination a:hover, .pagination span:hover {
+    text-decoration: none;
+}
+
+.pagination span {
+    background: #181b66;
+    color: #fff;
+}
+
+.sidebar>li {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.sidebar h2.widgettitle {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidebar>li ul {
+    padding-left: 0;
+}
+
+.sidebar>li ul li {
+    display: block;
+}
+
+.sidebar>li ul li+li {
+    border-top: 1px solid #eee;
+}
+
+.sidebar>li ul li a {
+    color: #666666;
+    display: block;
+    padding: 15px;
+}
+
+.sidebar>li .tagcloud a {
+    display: inline-block;
+    padding: 7px;
+    background: #eee;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+/* ==============PRE-FOOTER============== */
+
+.pre-footer-container {
+    position: relative;
+}
+
+.pre-footer-container #back-top {
+    position: absolute;
+    right: 20px;
+    top: -60px;
+    padding: 10px 14px 10px 14px;
+    border-radius: 5px;
+}

@@ -11,7 +11,7 @@ function mj_get_title_page()
         $output .= single_tag_title();
     } else if (is_404()) {
         $output .= "Página não encontrada!";
-    } else if (is_taxt()) {
+    } else if (is_tax()) {
         $get_tax = get_query_var('taxonomy');
         $get_term_slug = get_query_var($get_tax);
         $get_taxonomy = get_term_by('slug', $get_term_slug, $get_tax);
@@ -19,7 +19,7 @@ function mj_get_title_page()
     } else if (is_archive()) {
         $output .= post_type_archive_title('', false);
     } else if (is_search()) {
-        $output .= "resultados encontrados para: " . sanitize_text_field(get_search_query());
+        $output .= "Resultados encontrados para: <span class='text-danger'>" . sanitize_text_field(get_search_query())."</span>";
     }
     return $output;
 }
@@ -46,7 +46,7 @@ function mj_get_bootstrap_menu($menu_name = 'header', $args = array(), $label_me
     $output .= '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">';
     $output .= '<span class="navbar-toggler-icon"></span>';
     $output .= '</button>';
-    $output .= '<a class="navbar-brand ' . $css_class . '" href="#">' . $label_menu . '</a>';
+    $output .= '<a class="navbar-brand ' . $css_class . '" href="' . SITE_URL . '">' . $label_menu . '</a>';
     $output .= wp_nav_menu($array_options);
     $output .= '</div>';
     $output .= '</nav>';
