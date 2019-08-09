@@ -19,6 +19,10 @@ wp-content/plugins/hello.php
 
 #==========PERSONALIZADO=============
 
+# ignore everything in the root except the "wp-content" directory.
+#==========/*
+#==========!wp-content/
+
 # ignore these plugins from the core
 wp-content/plugins/akismet/
 
@@ -27,6 +31,9 @@ wp-content/themes/twenty*/
 
 # ignore node/grunt dependency directories
 node_modules/
+
+# ignore all files starting with .
+.*
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
