@@ -1,6 +1,6 @@
 <?php
 
-$register_slider = new MJRegisterCustomPostType('sliders', 'Slider', null, [
+$register_slider = new MJRegisterCustomPostType('sliders', 'Slider', 'o', [
     'menu_icon' => 'dashicons-images-alt2',
     'supports' => ['title', 'thumbnail']
 ]);
