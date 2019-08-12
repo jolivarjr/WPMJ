@@ -24,8 +24,8 @@
 		</div>
 		<div class="col-sm-4">
 			<aside class="sidebar">
-				<?php if (is_active_sidebar('category-sidebar')) : ?>
-					<?php dynamic_sidebar('category-sidebar') ?>
+				<?php if (is_active_sidebar('blog-sidebar')) : ?>
+					<?php dynamic_sidebar('blog-sidebar') ?>
 				<?php endif; ?>
 			</aside>
 		</div>

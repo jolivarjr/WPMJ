@@ -24,8 +24,9 @@ jQuery(document).ready(function () {
         event.preventDefault()
 
         let nome = jQuery("#nome_contato").val().trim()
-        let assunto = jQuery("#assunto_contato").val().trim()
         let email = jQuery("#email_contato").val().trim()
+        let telefone = jQuery("#telefone_contato").val().trim()
+        let assunto = jQuery("#assunto_contato").val().trim()
         let mensagem = jQuery("#mensagem_contato").val().trim()
 
         jQuery.ajax({
@@ -33,7 +34,7 @@ jQuery(document).ready(function () {
             type: 'POST',
             data: {
                 action: 'enviar_formulario_contato',
-                nome, assunto, email, mensagem
+                nome, email, telefone, assunto, mensagem
             },
             success: function (resultado) {
                 jQuery("#result_form_contato").html(resultado)

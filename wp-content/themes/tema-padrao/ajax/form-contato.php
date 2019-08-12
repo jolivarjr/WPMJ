@@ -15,12 +15,12 @@ function enviar_formulario_contato()
             $msg_error .= str_replace("{{label}}", "Preencha o campo nome", $alert_warning);
         }
 
-        if ($_POST['assunto'] == '') {
-            $msg_error .= str_replace("{{label}}", "Preencha um assunto", $alert_warning);
-        }
-
         if ($_POST['email'] == '') {
             $msg_error .= str_replace("{{label}}", "Preencha o campo email corretamente", $alert_warning);
+        }
+
+        if ($_POST['assunto'] == '') {
+            $msg_error .= str_replace("{{label}}", "Preencha um assunto", $alert_warning);
         }
 
         if ($_POST['mensagem'] == '') {
@@ -37,10 +37,11 @@ function enviar_formulario_contato()
             $to = SITE_OPTIONS['email_contato_site'] ?? "contato@site.com.br";
 
             $body = "";
-            $body .= "<p><strong>Nome: {$_POST['nome']}</strong></p>";
-            $body .= "<p><strong>Assunto: {$_POST['email']}</strong></p>";
-            $body .= "<p><strong>E-mail: {$_POST['assunto']}</strong></p>";
-            $body .= "<p><strong>Mensagem: {$_POST['mensagem']}</strong></p>";
+            $body .= "<p><strong>Nome: " . sanitize_text_field($_POST['nome']) . "</strong></p>";
+            $body .= "<p><strong>E-mail: " . sanitize_text_field($_POST['assunto']) . "</strong></p>";
+            $body .= "<p><strong>Telefone: " . sanitize_text_field($_POST['telefone']) . "</strong></p>";
+            $body .= "<p><strong>Assunto: " . sanitize_text_field($_POST['email']) . "</strong></p>";
+            $body .= "<p><strong>Mensagem: " . sanitize_text_field($_POST['mensagem']) . "</strong></p>";
 
             $headers = array(
                 "From: {$_POST['nome']} <{$_POST['email']}>",
@@ -48,7 +49,7 @@ function enviar_formulario_contato()
             );
 
             $res = wp_mail($to, $_POST['assunto'], $body, $headers);
-$res = 1;
+
             if ($res) {
                 echo '<div class="col-12"><div class="alert alert-success" role="alert"><strong>E-mail enviado com sucesso</strong></div></div>';
             } else {
