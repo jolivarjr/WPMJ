@@ -67,6 +67,8 @@ img {
 .box-list-blog img {
     float: left;
     margin-right: 15px;
+    border: 6px solid #eee;
+    border-radius: 5px;
 }
 
 .box-list-blog {
@@ -158,4 +160,36 @@ img {
     top: -60px;
     padding: 10px 14px 10px 14px;
     border-radius: 5px;
+}
+
+/* ==============SINGLE-POST============== */
+
+#single-blog .img_single_post {
+    margin-bottom: 35px;
+    border: 10px solid #eee;
+    border-radius: 5px;
+}
+
+#single-blog .single-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+#single-blog .img_single_post+.single-title {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+#single-blog .posts-relacionados {
+    padding-top: 40px;
+}
+
+#single-blog .posts-relacionados h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 25px;
 }
