@@ -30,9 +30,7 @@ require_once 'custom-posts/index.php';
 // carrega as funções de shortcodes 
 require_once 'shortcodes/index.php';
 
-/**
- * Campos de configurações gerais do tema
- */
+// Campos de configurações gerais do tema
 if (is_admin()) {
 	$mj_theme_options = new MJConfigThemeOptions();
 
@@ -64,7 +62,7 @@ if (is_admin()) {
 }
 
 /**
- * Código padrão do tema e customizações
+ * Abaixo Código padrão do tema e customizações
  */
 
 // registrando sidebars
