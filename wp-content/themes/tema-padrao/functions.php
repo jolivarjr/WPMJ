@@ -68,6 +68,7 @@ if (is_admin()) {
  */
 
 // registrando sidebars
+add_action('widgets_init', 'mj_register_my_widgets_theme');
 function mj_register_my_widgets_theme()
 {
 	// 1 coluna rodapé 
@@ -96,4 +97,3 @@ function mj_register_my_widgets_theme()
 		'description' => 'Barra Lateral do Blog'
 	));
 }
-add_action('widgets_init', 'mj_register_my_widgets_theme');
