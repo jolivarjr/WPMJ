@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.2.2" created="2019-08-09 13:55" -->
+	<!-- generator="WordPress/5.2.2" created="2019-08-13 11:57" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,25 +26,25 @@
 >
 
 <channel>
-	<title>WPMJ Framework</title>
-	<link>http://localhost/WPMJ</link>
-	<description>Só mais um site WordPress</description>
-	<pubDate>Fri, 09 Aug 2019 13:55:11 +0000</pubDate>
-	<language>pt-BR</language>
+	<title>jjrtestes</title>
+	<link>https://jjrtestes.000webhostapp.com</link>
+	<description>Mais um site WordPress</description>
+	<pubDate>Tue, 13 Aug 2019 11:57:25 +0000</pubDate>
+	<language>pt-PT</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://localhost/WPMJ</wp:base_site_url>
-	<wp:base_blog_url>http://localhost/WPMJ</wp:base_blog_url>
+	<wp:base_site_url>https://jjrtestes.000webhostapp.com</wp:base_site_url>
+	<wp:base_blog_url>https://jjrtestes.000webhostapp.com</wp:base_blog_url>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[desenvolvedor]]></wp:author_login><wp:author_email><![CDATA[jolivarjunior@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[desenvolvedor]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[jolivar]]></wp:author_login><wp:author_email><![CDATA[jolivarmenezesmachado@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[jolivar]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
 				
 	<generator>https://wordpress.org/?v=5.2.2</generator>
 
 		<item>
 		<title>1 - What is Lorem Ipsum?</title>
-		<link>http://localhost/WPMJ/what-is-lorem-ipsum/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/what-is-lorem-ipsum</link>
 		<pubDate>Fri, 09 Aug 2019 13:43:54 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=8</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -71,7 +71,7 @@
 <p>Maecenas nec odio et ante tincidunt tempus. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Nullam accumsan lorem in dui. Praesent egestas tristique nibh. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>8</wp:post_id>
+		<wp:post_id>11</wp:post_id>
 		<wp:post_date><![CDATA[2019-08-09 10:43:54]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2019-08-09 13:43:54]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -89,14 +89,14 @@
 		<category domain="category" nicename="textos"><![CDATA[Textos]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[9]]></wp:meta_value>
+		<wp:meta_value><![CDATA[50]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>2 - Where does it come from?</title>
-		<link>http://localhost/WPMJ/where-does-it-come-from/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/where-does-it-come-from</link>
 		<pubDate>Fri, 09 Aug 2019 13:44:36 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=11</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -127,7 +127,7 @@
 <p>Nunc sed turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In consectetuer turpis ut velit. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
+		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2019-08-09 10:44:36]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2019-08-09 13:44:36]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
@@ -143,7 +143,7 @@
 		<category domain="category" nicename="textos"><![CDATA[Textos]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		<wp:meta_value><![CDATA[49]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -152,9 +152,9 @@
 							</item>
 					<item>
 		<title>3 - Why do we use it?</title>
-		<link>http://localhost/WPMJ/3-why-do-we-use-it/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/3-why-do-we-use-it</link>
 		<pubDate>Fri, 09 Aug 2019 13:45:36 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=14</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -197,14 +197,14 @@
 		<category domain="category" nicename="paisagens"><![CDATA[Paisagens]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[15]]></wp:meta_value>
+		<wp:meta_value><![CDATA[48]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>4 - Where can I get some?</title>
-		<link>http://localhost/WPMJ/4-where-can-i-get-some/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/4-where-can-i-get-some</link>
 		<pubDate>Fri, 09 Aug 2019 13:46:55 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=19</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -246,14 +246,14 @@
 										<category domain="category" nicename="paisagens"><![CDATA[Paisagens]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[20]]></wp:meta_value>
+		<wp:meta_value><![CDATA[47]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>5 - Nam porttitor felis vel mi</title>
-		<link>http://localhost/WPMJ/5-nam-porttitor-felis-vel-mi/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/5-nam-porttitor-felis-vel-mi</link>
 		<pubDate>Fri, 09 Aug 2019 13:49:49 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=22</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -293,14 +293,14 @@
 		<category domain="category" nicename="noticias"><![CDATA[Notícias]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[23]]></wp:meta_value>
+		<wp:meta_value><![CDATA[46]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>6 - Morbi aliquet magna congue</title>
-		<link>http://localhost/WPMJ/6-morbi-aliquet-magna-congue/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/6-morbi-aliquet-magna-congue</link>
 		<pubDate>Fri, 09 Aug 2019 13:50:47 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=25</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -342,14 +342,14 @@
 		<category domain="category" nicename="paisagens"><![CDATA[Paisagens]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[26]]></wp:meta_value>
+		<wp:meta_value><![CDATA[45]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>7 - Vestibulum lacus nisi, venenatis</title>
-		<link>http://localhost/WPMJ/vestibulum-lacus-nisi-venenatis/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/vestibulum-lacus-nisi-venenatis</link>
 		<pubDate>Fri, 09 Aug 2019 13:51:39 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=28</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -391,14 +391,14 @@
 		<category domain="post_tag" nicename="paisagens"><![CDATA[Paisagens]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[29]]></wp:meta_value>
+		<wp:meta_value><![CDATA[44]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>8 - Fusce sit amet lacus lacus</title>
-		<link>http://localhost/WPMJ/8-fusce-sit-amet-lacus-lacus/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/8-fusce-sit-amet-lacus-lacus</link>
 		<pubDate>Fri, 09 Aug 2019 13:52:56 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=32</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -439,14 +439,14 @@
 		<category domain="category" nicename="textos"><![CDATA[Textos]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[33]]></wp:meta_value>
+		<wp:meta_value><![CDATA[43]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>9 - Etiam nec viverra odio</title>
-		<link>http://localhost/WPMJ/9-etiam-nec-viverra-odio/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/9-etiam-nec-viverra-odio</link>
 		<pubDate>Fri, 09 Aug 2019 13:53:31 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=35</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -487,14 +487,14 @@
 		<category domain="category" nicename="paisagens"><![CDATA[Paisagens]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[37]]></wp:meta_value>
+		<wp:meta_value><![CDATA[41]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title>10 - Quisque sodales tristique quam</title>
-		<link>http://localhost/WPMJ/10-quisque-sodales-tristique-quam/</link>
+		<link>https://jjrtestes.000webhostapp.com/2019/08/10-quisque-sodales-tristique-quam</link>
 		<pubDate>Fri, 09 Aug 2019 13:54:52 +0000</pubDate>
-		<dc:creator><![CDATA[desenvolvedor]]></dc:creator>
+		<dc:creator><![CDATA[jolivar]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/WPMJ/?p=38</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
@@ -536,7 +536,7 @@
 		<category domain="category" nicename="noticias"><![CDATA[Notícias]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[39]]></wp:meta_value>
+		<wp:meta_value><![CDATA[40]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
