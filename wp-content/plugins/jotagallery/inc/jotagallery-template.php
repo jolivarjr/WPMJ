@@ -1,0 +1,1 @@
+[jotagallery_photos jgallery_id="{{gallery_id}}"]

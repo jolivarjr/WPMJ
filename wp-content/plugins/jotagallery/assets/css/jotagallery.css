@@ -1,0 +1,61 @@
+.content-jgallery {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content-jgallery .loader {
+    width: 100%;
+    display: none;
+}
+
+.content-jgallery .loader #gifJg {
+    margin: 0 auto;
+    display: block;
+    transition: 0.5s all;
+}
+
+.content-jgallery #resultJg {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-jgallery #resultJg .img {
+    min-height: 100px;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 2px;
+    position: relative;
+}
+
+.content-jgallery #resultJg .img .deleteJg {
+    position: absolute;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    opacity: 0.7;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-jgallery #resultJg .img .deleteJg:hover {
+    opacity: 1;
+}
+
+.content-jgallery #resultJg .img img {
+    transition: 0.5s all;
+    width: 220px;
+    display: block;
+    border-radius: 4px;
+}

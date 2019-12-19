@@ -1,0 +1,129 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.row {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#rowGuests .loader {
+    display: none;
+}
+
+#add_guest {
+    width: 110px;
+    height: 30px;
+    background-color: darkgreen;
+    color: #fff;
+    border: 1px darkgreen solid;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#save_guests {
+    width: 110px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: 1px dodgerblue solid;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form .guest {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px #232323 dashed;
+    box-sizing: border-box;
+}
+
+.form .guest input {
+    width: calc(25% - 7.5px);
+    height: 32px;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+
+.form .guest input[name=codigo] {
+    width: 20%;
+}
+
+.form .guest input[name=nome] {
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .form .guest {
+        flex-wrap: wrap;
+    }
+    .form .guest input {
+        width: 49%!important;
+        margin-right: 0px;
+    }
+    .form .guest input[name=nome], .form .guest .clearField {
+        width: 100%!important;
+    }
+    .form .guest .clearField {
+        margin-top: 4px;
+    }
+}
+
+.form .guest .clearField {
+    width: 4%;
+    color: #fff;
+    background-color: #333;
+    border: 1px #333 solid;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.form .guest:last-child {
+    margin-bottom: 0;
+}
+
+/*******[PADRÕES]*******/
+
+.blue {
+    color: #4B8BF4 !important;
+    font-weight: bold
+}
+.green {
+    color: green !important;
+    font-weight: bold
+}
+
+.red {
+    color: darkred !important;
+    font-weight: bold
+}
+
+.gray {
+    color: #333 !important;
+    font-weight: bold
+}
+.destaque{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 3px;
+}

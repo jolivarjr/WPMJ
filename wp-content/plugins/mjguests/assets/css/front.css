@@ -1,0 +1,177 @@
+/***************************** POPUP DE CONFIRMAÇÃO NO EVENTO ***************************/
+
+.mjguest_confirm {
+    font-weight: bold;
+}
+
+#mjguest_confirm {
+    padding: 7px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    background-color: #232323;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mjguest_confirm:hover {
+    background-color: #333;
+}
+
+.mj_popup {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    justify-content: center;
+    align-items: center;
+}
+
+.mj_popup .confirm {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    padding: 0 20px;
+}
+
+.mj_popup .confirm span {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.mj_popup .confirm .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mj_popup .confirm .buttons .mj_boxform {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mj_popup .confirm .buttons .mj_boxform:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.mj_popup .confirm .buttons .mj_boxform:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.mj_popup .confirm .buttons .mj_boxform label {
+    display: inline-block;
+    margin: -3px 10px 0 0;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 17px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+.mj_popup .confirm .buttons input[type=text], .mj_popup .confirm .buttons input[type=number] {
+    border-radius: 5px;
+    border: 1px thin #ccc;
+    height: 50px;
+    font-weight: bold;
+    width: 100%;
+    color: black;
+    padding-left: 7px;
+    margin-top: 4px;
+    color: #333;
+}
+
+.mj_popup .confirm .buttons input[type=radio] {
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+}
+
+.mj_popup .confirm .buttons #qtd_less, .mj_popup .confirm .buttons #qtd_plus {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 4px;
+    background-color: #3f708d;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.mj_popup .confirm .buttons #qtd_less:hover, .mj_popup .confirm .buttons #qtd_plus:hover {
+    background-color: white;
+    color: #3f708d;
+}
+
+.mj_popup .confirm .buttons #qtd_pessoas {
+    width: 80px;
+    margin: 4px 10px 0;
+    background-color: #f2dab5;
+    cursor: auto;
+}
+
+@media (max-width:999px) {}
+
+.mj_popup .confirm .buttons input[type=text] {
+    margin-bottom: 10px;
+}
+
+.mj_popup .confirm .buttons #mj_send {
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #3f708d;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.mj_popup .confirm .buttons #mj_send:hover {
+    background-color: white;
+    color: #3f708d;
+}
+
+.mj_popup .close {
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 50px;
+    opacity: 1;
+    font-weight: normal;
+}
+
+@media (max-width:999px) {
+    .mj_popup .close {
+        top: 0px;
+        right: 10px;
+    }
+}
+
+.mj_popup .close:hover {
+    color: red;
+}
