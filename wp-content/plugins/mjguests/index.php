@@ -8,8 +8,14 @@
  * Author URI: https://github.com/jolivarjr
  * Text Domain: mjguests 
  * 
- * criar grupo com nome Main, é o grupo padrão que o plugin vai inserir os convidados confirmados pelo popup no front-end
- * criar um botão ou item no menu com id "guest_codigo" para abrir o popup de confirmação
+ * "close_guess_popup" é o nome do cookie que gera ao confirmar presença ou fechar o popup, 
+ * para abrir automaticamente o popup é preciso limpar esse cookie
+ * 
+ * REQUISITOS: (IMPORTANTE)
+ * 
+ * criar grupo com nome Main, é o grupo padrão que o plugin vai procurar para inserir os convidados confirmados pelo popup no front-end, 
+ * caso não esteja criado vai inserir em um grupo com id 999
+ * criar um botão ou item no menu com id "guest_codigo" para abrir o popup de confirmação de forma manual
  */
 
 if (!function_exists('add_action')) {
