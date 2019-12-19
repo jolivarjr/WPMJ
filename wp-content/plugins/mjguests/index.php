@@ -15,7 +15,8 @@
  * 
  * criar grupo com nome Main, é o grupo padrão que o plugin vai procurar para inserir os convidados confirmados pelo popup no front-end, 
  * caso não esteja criado vai inserir em um grupo com id 999
- * criar um botão ou item no menu com id "guest_codigo" para abrir o popup de confirmação de forma manual
+ * 
+ * criar um botão ou item no menu com a classe "mjguest_confirm" para abrir o popup de confirmação de forma manual
  */
 
 if (!function_exists('add_action')) {

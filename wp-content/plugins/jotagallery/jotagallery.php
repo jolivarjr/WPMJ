@@ -7,6 +7,10 @@
  * Author URI: https://github.com/jolivarjr
  * Text Domain: jotagallery 
  * 
+ * * REQUISITOS: (IMPORTANTE)
+ * Após instalação: acessar Configurações >> Links Permanentes >> Configurações comuns >> Selecionar nome do post e salvar. 
+ * Caso já esteja nessa opção, salvar mesmo assim caso as galerias estejam aparecendo como "página não encontrada"
+ * 
  * Para listar todas as galerias basta criar uma página e utlizar o shortcode [jotagallery_photos]
  */
 
